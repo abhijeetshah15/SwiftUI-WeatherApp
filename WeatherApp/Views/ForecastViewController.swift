@@ -17,7 +17,7 @@ class ForecastViewController: UIViewController, UITableViewDelegate, UITableView
     @IBOutlet weak var blurView: UIVisualEffectView!
     
     var locationManager = CLLocationManager()
-    let API_KEY = "3dcf172add32592a2fd2d0e52fa6e9fe"
+    let API_KEY = "(OPENWEATHERMAP API KEY HERE)"
     var dictObj = [[String: Any]]()
     var secTotal = 0
     var latValue = 0.0
