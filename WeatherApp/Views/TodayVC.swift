@@ -13,7 +13,7 @@ import MapKit
 class TodayVC: UIViewController, CLLocationManagerDelegate {
     
     var locationManager = CLLocationManager()
-    let API_KEY = "3dcf172add32592a2fd2d0e52fa6e9fe"
+    let API_KEY = "(OPENWEATHERMAP API KEY HERE)"
     var latValue = 0.0
     var lonValue = 0.0
     var city = ""
