@@ -15,12 +15,6 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var skyConditionLbl: UILabel!
     @IBOutlet weak var tempLbl: UILabel!
     
-    let API_KEY = "3dcf172add32592a2fd2d0e52fa6e9fe"
-    var latValue = 0.0
-    var lonValue = 0.0
-    var dictObj = [[String: Any]]()
-    var secTotal = 0
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
